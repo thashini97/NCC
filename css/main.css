@@ -19,11 +19,10 @@
  *  11. about
  *  12. resume
  *  13. portfolio
- *  14. call-to-action section
- *  15. services
- *  16. stats
- *  17. contact
- *  18. footer
+ *  14. services
+ *  15. stats
+ *  16. contact
+ *  17. footer
  *
  * =================================================================== 
  */
@@ -2022,77 +2021,12 @@ header .logo a {
 	transform: translateY(-100%);
 }
 
-/** 
- * ===================================================================
- * 14. call-to-action section - (_layout.scss)
- *
- * ------------------------------------------------------------------- 
- */
-#cta {
-	padding-top: 10.2rem;
-	padding-bottom: 9rem;
-	text-align: center;
-}
-#cta p.lead {
-	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
-}
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
 
-/**
- * section ads - (_layout.scss)
- * ------------------------------------------------------------------- 
- */
-.section-ads h2 {
-	position: relative;
-	padding-bottom: 2.1rem;
-}
-.section-ads h2::after {
-	content: "";
-	display: block;
-	height: 3px;
-	width: 80px;
-	background: rgba(0, 0, 0, 0.2);
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	margin-left: -40px;
-}
-.section-ads h2 a, .section-ads h2 a:visited {
-	color: #313131;
-}
-.section-ads span {
-	color: #3F0D39;
-}
-
-/**
- * responsive:
- * cta
- * -------------------------------------------------------------------
- */
-@media only screen and (max-width:650px) {
-	.cta-content {
-		max-width: 650px;
-	}
-	.cta-content h2 {
-		font-size: 2.4rem;
-	}
-}
 
 
 /** 
  * ===================================================================
- * 15. services - (_layout.scss)
+ * 14. services - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
@@ -2140,6 +2074,7 @@ header .logo a {
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
+
 .services-list .icon {
 	display: inline-block;
 	margin-bottom: 2.1rem;
@@ -2180,7 +2115,7 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 16. stats - (_layout.scss)
+ * 15. stats - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
@@ -2247,12 +2182,12 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 17. contact - (_layout.scss)
+ * 16. contact - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
 #contact {
-	background: #151515;
+	background: #524d4d;
 	padding-top: 12rem;
 	padding-bottom: 7.2rem;
 }
@@ -2488,7 +2423,7 @@ header .logo a {
 
 /** 
  * ===================================================================
- * 18. footer - (_layout.scss)
+ * 17. footer - (_layout.scss)
  *
  * ------------------------------------------------------------------- 
  */
