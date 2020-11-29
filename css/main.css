@@ -1500,20 +1500,21 @@ header .logo a {
 
 .intro-info {
 	margin-top: 4.2rem;
-	margin-right: -30px;
-	margin-left: -30px;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 .intro-info img {
 	position: relative;
 	height: 25rem;
 	width: 15rem;
-	border-radius: 50%;
+	padding-right: 25px;
+	border-radius: 25%;
 	float: left;
 
 }
 .intro-info .lead {
 	text-align: left;
-	padding-left: 13rem;
+	padding-left: 20px;
 }
 
 .about-content {
