@@ -2070,6 +2070,7 @@ header .logo a {
 	text-align: center;
 }
 .services-list .service {
+	display: inline;
 	margin-bottom: 1.2rem;
 	padding: 0 30px;
 }
