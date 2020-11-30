@@ -943,7 +943,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .skill-bars li {
 	height: .6rem;
-	background: #a1a1a1;
+	background: #1b1b1b;
 	width: 100%;
 	margin-bottom: 6rem;
 	padding: 0;
@@ -954,7 +954,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #7a7676;
+	color: #cac7c7;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -974,7 +974,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	color: white;
 	font-size: 1.1rem;
 	line-height: 1;
-	background: #313131;
+	background: #000000;
 	padding: .6rem .6rem;
 	border-radius: 3px;
 }
@@ -1038,8 +1038,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
+.section-intro h4 {
+	color: #FF0073 ;
+	font-size: 2rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
 .section-intro h5 {
-	color: #C7005A;
+	color: #BB0255 ;
 	font-size: 1.6rem;
 	line-height: 1.875;
 	margin-bottom: 0.3rem;
@@ -1292,7 +1299,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #0f0f0f url(../images/intro-bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1350,7 +1357,7 @@ header .logo a {
 	line-height: 2.4rem;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
-	color: #cc005f;
+	color: #FF0077;
 	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position span {
@@ -1488,7 +1495,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #about {
-	background: #1a1a19;
+	background: #0f0f0f;
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
@@ -2313,7 +2320,9 @@ header .logo a {
 .contact-info h5 {
 	color: #FF0077;
 }
-
+.contact-info p {
+	color: #8B8989;
+}
 /**
  * loader animation - (_layout.scss)
  * --------------------------------------------------------------- 
