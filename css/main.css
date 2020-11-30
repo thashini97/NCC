@@ -1511,6 +1511,7 @@ header .logo a {
 	margin-left: 10px;
 }
 .intro-info img {
+	object-fit: cover;
 	position: relative;
 	height: 30rem;
 	width: 25rem;
